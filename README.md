@@ -16,5 +16,17 @@ code.
  3. Install dependencies. `cd woody-puzzel; pip install -r requirements.txt`
  4. Run the game. `./main.py`
 
+## Documentation
+
+**woody-puzzel** ships with `pdoc`. To generate HTML documentation, run
+
+```
+cd woody-puzzel
+pdoc .
+```
+
+To view the documentation, navigate to `./html/woody-puzzel/index.html` in a
+web browser.
+
 [Woody Puzzle]: https://www.woodypuzzle.com/
 [virtual environment]: https://realpython.com/python-virtual-environments-a-primer/
