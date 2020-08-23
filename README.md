@@ -14,19 +14,37 @@ code.
  1. Clone this repo. `git clone https://github.com/loboyd/woody-puzzel.git`
  2. (*optional*) Set up a [virtual environment][].
  3. Install dependencies. `cd woody-puzzel; pip install -r requirements.txt`
- 4. Run the game. `./main.py`
+ 4. Run the game. `./woody-puzzel.py`
 
 ## Documentation
 
-**woody-puzzel** ships with `pdoc`. To generate HTML documentation, run
+**woody-puzzel** ships with `pdoc`. To generate HTML documentation, run:
 
 ```
 cd woody-puzzel
-pdoc .
+pdoc --html woody_puzzel
 ```
 
-To view the documentation, navigate to `./html/woody-puzzel/index.html` in a
-web browser.
+To view the documentation, navigate to `./html/woody-puzzel/html/woody_puzzel/index.html`
+in a web browser.
+
+## Tests
+
+**woody-puzzel** uses Python's built-in `unittest` test runner. To run tests:
+
+```
+cd woody-puzzel
+python -m unittest
+```
+
+Or, to run tests and also generate a test coverage report, run:
+
+```
+coverage run -m unittest
+coverage html
+```
+
+and then navigate to `./htmlcov/index.html` to view the report.
 
 [Woody Puzzle]: https://www.woodypuzzle.com/
 [virtual environment]: https://realpython.com/python-virtual-environments-a-primer/

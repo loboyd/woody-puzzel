@@ -58,5 +58,10 @@ def demo(screen):
 
         screen.refresh()
 
-if __name__ == "__main__":
+
+def main():
     Screen.wrapper(demo)
+
+
+if __name__ == "__main__":
+    main()
