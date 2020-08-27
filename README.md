@@ -25,8 +25,8 @@ cd woody-puzzel
 pdoc --html woody_puzzel
 ```
 
-To view the documentation, navigate to `./html/woody-puzzel/html/woody_puzzel/index.html`
-in a web browser.
+To view the documentation, navigate to `./html/woody-puzzel.html` in a web
+browser.
 
 ## Tests
 
