@@ -1,0 +1,7 @@
+.env
+.vscode
+.coverage
+
+__pycache__
+html
+htmlcov
